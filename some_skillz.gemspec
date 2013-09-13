@@ -13,7 +13,7 @@ Gem::Specification.new do |spec|
   spec.homepage      = "https://github.com/chrishunt/some-skillz"
   spec.license       = "MIT"
 
-  spec.post_install_message = "http://pragprog.com/book/ruby/programming-ruby"
+  spec.post_install_message = "******\nREAD IT:\n  http://pragprog.com/book/ruby/programming-ruby\n*****"
 
   spec.files         = `git ls-files`.split($/)
   spec.executables   = spec.files.grep(%r{^bin/}) { |f| File.basename(f) }
